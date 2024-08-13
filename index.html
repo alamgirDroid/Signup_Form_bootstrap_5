@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Form Bootstrap-5</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<section class="wrapper">
+  <div class="container">
+  <div class="col-sm-8 offset-sm-8 col-lg-6 offset-lg-3 col-xl-4 text-center">
+<!---logo-->
+  <div class="logo">
+    <img src="./images/logo.png" class="img-fluid" alt="logo">
+      </div>
+<!---form-->
+  <form class="rounded bg-white shadow p-5">
+    <h3 class="text-dark fw-bolder fs-4 mb-2">Create an Account</h3>
+<!--Create An Account-->
+  <div class="fw-normal text-muted mb-2">
+   Already have an account? <a href="index.html" class="text-primary fw-bold text-decoration-none">Sign in here</a>
+  </div>
+<!---Or-->
+ <div class="text-center text-muted text-uppercase mb-2">Or</div>
+ <!---Google-->
+  <a href="#" class="btn btn-light login_with w-100 mb-4">
+  <img src="./images/google-icon.svg" class="img-fluid me-3">Sign in with Google
+   </a>
+<!--First Name--->
+  <div class="form-floating mb-3">
+    <input type="text" class="form-control" id="floatingFirstName" placeholder="name@example.com">
+    <label for="floatingFirstName">First Name</label>
+    </div>
+<!--Last Name--->
+  <div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingLastName" placeholder="name@example.com">
+  <label for="floatingLastName">Last Name</label>
+  </div>
+<!--Email Address--->
+  <div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address</label>
+   </div>
+<!---Password-->
+ <div class="form-floating mb-3">
+   <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Password</label>
+    <span class="password-info mt-2">Use 8 or more characters with a mix of letters, numbers & symbols.</span>
+  </div>
+<!---Confirm Password-->
+  <div class="form-floating mb-3">
+     <input type="password" class="form-control" id="floatingConfirmPassword" placeholder="Password">
+    <label for="floatingConfirmPassword">Confirm Password</label>
+  </div>
+  <!---Checkbox-->
+  <div class="form-check d-flex align-items-center">
+    <input class="form-check-input" type="checkbox" id="gridCheck" checked>
+    <label class="form-check-label ms-2" for="gridCheck">
+      I Agree<a href="#">Terms and conditions</a>.
+    </label>
+  </div>        
+<!---Continue Button-->
+ <button type="submit" class="btn btn-primary submit_btn w-100 my-4">Continue</button>
+    </form>
+      </div>
+    </div>
+  </section>
+<script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
